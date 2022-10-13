@@ -2,9 +2,10 @@ import React from "react";
 
 function Navbar() {
   const navItems = [
-    { navList: "Home", navLink: "/" },
-    { navList: "About", navLink: "/About" },
-    { navList: "Services", navLink: "/Services" },
+    { navList: "About", navLink: "/" },
+    { navList: "Skills", navLink: "/About" },
+    { navList: "Projects", navLink: "/Services" },
+    { navList: "Certifications", navLink: "/Contact" },
     { navList: "Contact", navLink: "/Contact" },
   ];
   const navs = navItems.map((navItem) => (
@@ -13,7 +14,7 @@ function Navbar() {
   const links = navItems.map((navLink) => <a>{navLink.navLink}</a>);
   return (
     <div>
-      <nav className="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+      <nav className="py-2.5 dark:bg-gray-900 sticky">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <a href="https://flowbite.com/" className="flex items-center">
             <img
