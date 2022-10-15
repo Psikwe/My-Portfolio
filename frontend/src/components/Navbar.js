@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   const navItems = [
-    { navList: "About", navLink: "/" },
+    { navList: "Abouts", navLink: "/" },
     { navList: "Skills", navLink: "/About" },
     { navList: "Projects", navLink: "/Services" },
     { navList: "Certifications", navLink: "/Contact" },
