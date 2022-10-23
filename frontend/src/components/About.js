@@ -2,8 +2,11 @@ import React from "react";
 
 function About() {
   return (
-    <div className="grid lg:grid-cols-2 mt-6 bg-white dark:bg-slate-800  px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
-      <div class="p-6 max-w-sm bg-white rounded-lg backdrop-blur-md bg-white/30 shadow-md ">
+    <div
+      id="About"
+      className="grid lg:grid-cols-2 mt-6  px-6 py-8 ring-1 ring-slate-900/5 shadow-xl"
+    >
+      <div class="p-6 max-w-sm bg-white rounded-lg backdrop-blur-md bg-white/30">
         <svg
           class="mb-2 w-10 h-10 text-gray-500 dark:text-gray-400"
           aria-hidden="true"
